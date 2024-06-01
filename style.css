@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.Container{
+    background-color: rgb(250, 245, 232);
+    height: 97.5vh;
+}
+nav{
+    color: rgb(6, 6, 62);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+nav ul{
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+    list-style-type: none;
+    font-weight: 500;
+    /* opacity: 0.6; */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+nav ul li a{
+    text-decoration: none;
+    color: inherit;
+}
+.side-option{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: brown; */
+    width: 20%;
+}
+.side-option div{
+    border:1px solid rgb(6, 6, 62) ;
+    border-radius: 5px;
+    padding: 2px 5px ;
+}
+.side-option a{
+    text-decoration: none;
+    color: inherit;
+}
+input{
+    border: none;
+    padding: 5px;
+    background-color: none;
+}
+.profile{
+    width: 30px;
+    height: 30px;
+    /* background: red; */
+}
+.inner-profile{
+    border-radius: 50%;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    height: 75vh;
+}
+.left{
+    padding: 50px;   
+}
+.left h2{
+    color: blue;
+}
+.left p{
+    line-height: 30px;
+    width: 80%;
+}
+.left button{
+    border: none;
+    background-color: black;
+    width: 100px;
+    height: 40px;
+    color: white;
+    border-radius: 20px;
+}
+.right{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+.right img{
+    transform: translateY(-50px) translateX(-50px);    
+
+}
+footer{
+    padding:10px 80px;
+    height: 15.8vh;
+    background-color: orange;
+}
+footer ul{
+    display: flex;
+    height: 100%;
+    padding: 20px;
+    justify-content: space-between;
+    list-style: none;
+    color: white;
+}
+li{
+    font-size: x-large;
+}

@@ -1,0 +1,89 @@
+.cart-section h2{
+    margin: 30px 150px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:8vh;
+    /* background-color: aqua; */
+    
+}
+.cart-table{
+    /* background-color: blue; */
+    width: 50vw;
+    height: 60vh;
+}
+.cart-table table{
+    width: 100%;
+    height: auto;
+    margin: 0px 30px;
+}
+
+.cart-table table tr th {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: grey;
+    border-bottom: 2px solid grey;
+    padding: 10px;
+}
+.cart-table table tr td{
+    padding: 15px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cart-coupon{
+    width: 50%;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+   
+}
+.inner-coupon{
+    /* margin:10px 0px; */
+    width: 50%;
+    line-height: 30px;
+    padding: 20px 50px;
+    border: 2px solid black;
+    border-radius: 30px;
+    /* background-color: aqua; */
+}
+.input{
+    display: flex;
+    justify-content: space-between;
+}
+.input input{
+   
+    width: 60%;
+    border-radius: 10px;
+    padding: 20px 30px;
+    border: 1px solid gray;
+}
+.input button{
+    color: white;
+    width: 35%;
+    border: 0px;
+    border-radius: 10px;
+    background-color: blue;
+    font-weight: 700;
+
+}
+.total{
+    /* background-color: violet; */
+    width: 100%;
+    margin-top: 10px;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.total tr{
+    display: flex;
+    justify-content: space-between;
+}
+.final-btn{
+    width: 100%;
+    padding: 15px 5px;
+    margin-top: 30px;
+    border: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger;
+    border-radius: 20px;
+    color: white;
+    font-weight: 700;
+    font-style: italic;
+    background-color: orange;
+
+}

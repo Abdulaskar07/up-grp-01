@@ -1,0 +1,90 @@
+.main-img{
+    /* background-color: aqua; */
+    height: 60vh;
+    /* padding: 20px 60px; */
+    display: flex;
+    justify-content: space-between;
+    
+}
+.main-left{
+    width: 50%;
+    border-radius: 10px;
+    margin: 20px 60px;
+    background:rgba(128, 128, 128, 0.297);
+    height: 90%;
+    overflow: hidden;
+
+}
+.main-left img{
+    /* background-color: aquamarine; */
+    transform: translatey(-70px) translateX(50px);
+
+}
+.main-right{
+    width: 50%;
+    border-radius: 10px;
+    margin: 20px 60px;
+    /* background: red; */
+    height: 90%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px 20px; 
+}
+.main-right p{
+    line-height: 30px;
+}
+.price{
+    width: 20%;
+    background-color: rgba(90, 190, 244, 0.527);
+    padding: 10px;
+    border-radius: 10px;
+    margin-right: 10px;
+    font-weight: bolder;
+    font-size: x-large;
+    color: blue;
+}
+.off h4{
+    color: green;
+    font-weight: 700;
+    font-size: larger;
+}
+.off p{
+    font-weight: bold;
+}
+.cart{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+.quantity{
+    background-color: lightgray;
+    padding: 10px;
+    border-radius: 10px;
+}
+.addtocart{
+    padding: 10px;
+    background-color: rgb(255, 145, 0);
+    font-size: larger;
+    font-weight: 400;
+    border-radius: 10px;
+
+}
+.scroll{
+
+    padding: 10px 80px;
+    display: flex;
+    justify-content: space-between;
+    
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+.Card{
+    background-color: lightgray;
+    width: 10vw;
+    height: 10vw;
+    overflow: hidden;
+}
+.Card img{
+    height: 100%;
+    width: 100%;
+}
+

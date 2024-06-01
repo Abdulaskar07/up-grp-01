@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment</title>
+    <link rel="stylesheet" href="./Cart.css">
+    <link rel="stylesheet" href="./Payment.css">
+</head>
+<body>
+    <div class="Payment-container">
+        <section class="left">
+            <h3>checkout</h3>
+            <h2>Contact Details</h2>
+            <aside class="email">
+                <label for="">Email ID</label>
+                <input type="Email" placeholder="jhondaiel@abc.com">
+            </aside>
+            <aside>
+                <h2>Payment</h2>
+                <section class="Payment">
+                    <section class="inner-payment">
+                        <div>Card</div>
+                        <div>Crypto</div>
+                        <div>Bank</div>
+                        <div>...</div>
+                    </section>
+                    <div class="details">
+                        <div class="card">
+                            <label for="Card Number">Card Number</label>
+                            <input type="text" placeholder="XXXX XXXX XXXX XXXX">
+                        </div>
+                        <section class="exp date">
+                            <div class="side">
+                                <div>
+                                    <label for="Expiry">
+                                        Expiry
+                                    </label>
+                                    <input type="text" placeholder="MM/YY">
+                                </div>
+                                <div>
+                                    <label for="CVV">
+                                        CVV
+                                    </label>
+                                    <input type="text" placeholder="****">
+                                </div>
+                            </div>
+                            <div class="side">
+                                <div>
+                                    <label for="Country">
+                                        Country
+                                    </label>
+                                    <input type="text" placeholder="India">
+                                </div>
+                                <div>
+                                    <label for="Zip">
+                                        Zip
+                                    </label>
+                                    <input type="text" placeholder="XXX XXX">
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </section>
+
+            </aside>
+
+        </section>
+        <section class="right">
+            <h2>Order Summary</h2>
+            <section class="inner-coupon">
+                <h3>Enter the coupon</h3>
+                <div class="input">
+                    <input type="text" id="coupon" placeholder="COUPON CODE">
+                    <button>Apply Now</button>
+                </div>
+            <table class="total">
+                <tr>
+                    <td>Sub Total</td>
+                    <td>$5999</td>
+                </tr>
+                <tr>
+                    <td>Tax</td>
+                    <td>$199</td>
+                </tr>
+                <tr>
+                    <td>Discount</td>
+                    <td>$0</td>
+                </tr>
+                <tr style="font-weight: 800;">
+                    <td>Total</td>
+                    <td>$6198</td>
+                </tr>
+
+            </table>
+            <button class="final-btn">
+                Pay Now $6198
+            </button>
+
+            </section>
+
+        </section>
+
+    </div>
+    
+</body>
+</html>
